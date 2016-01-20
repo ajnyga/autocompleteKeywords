@@ -51,9 +51,8 @@ class jsonKeywordsPlugin extends GenericPlugin {
         $currentJournal = $templateMgr->get_template_vars('currentJournal');
 
         if (!empty($currentJournal) AND (($op == 'viewMetadata') OR ($op == 'submit'))) {
-
-			$templateMgr->assign('pluginUrl', $templateMgr->get_template_vars('baseUrl')."/plugins/generic/jsonKeywords");
-            $additionalHeadData = $templateMgr->get_template_vars('additionalHeadData');
+			
+			$additionalHeadData = $templateMgr->get_template_vars('additionalHeadData');
             $additionalHeadData .= $templateMgr->fetch('../plugins/generic/jsonKeywords/jsonKeywordsHeader.tpl');
             $templateMgr->assign('additionalHeadData', $additionalHeadData);
 			
