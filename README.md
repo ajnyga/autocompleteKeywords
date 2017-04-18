@@ -1,5 +1,5 @@
 # jsonKeywords
-Plugin for Open Journal Systems. Activates autocompletion in keywords metadata fields and uses an ajax call for the source.  
+Plugin for Open Journal Systems 2.4.x. Activates autocompletion in keywords metadata fields and uses an ajax call for the source.  
 
 The plugin is hard coded to use the Finnish Finto vocabulary API http://api.finto.fi/
 
